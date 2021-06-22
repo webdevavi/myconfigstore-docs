@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
 :root {
   --ifm-color-primary: #e97c2e;
   --ifm-color-primary-dark: #cf6e28;
@@ -9,6 +12,33 @@
   --ifm-code-font-size: 95%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+.button {
+  font-family: "Mulish";
+  font-weight: black;
+}
+
+body,
+p,
+span,
+div {
+  font-family: "Poppins";
+}
+
+code,
+code > * {
+  font-family: var(--ifm-font-family-monospace) !important;
+  font-size: var(--ifm-code-font-size) !important;
+  line-height: 1.4rem;
+  letter-spacing: 0.025rem;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
@@ -18,4 +48,123 @@
 
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .navbar,
+.footer {
+  background-color: rgb(34, 34, 34);
+}
+
+.footer__title {
+  color: var(--ifm-color-primary-darker);
+  text-align: center;
+}
+
+.footer__item {
+  text-align: center;
+}
+
+.footer__link-item {
+  color: var(--ifm-color-primary);
+  font-family: "Mulish";
+  font-weight: 900;
+  opacity: 0.6;
+}
+
+.footer__link-item:hover,
+.footer__link-item:focus {
+  opacity: 1;
+}
+
+.footer__copyright {
+  color: var(--ifm-color-primary-dark);
+  font-family: "Mulish";
+  font-weight: 900;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  font-size: clamp(3rem, 10vw, 5rem);
+  color: var(--ifm-color-primary);
+}
+
+.hero__title-dark {
+  color: var(--ifm-color-primary-dark);
+}
+
+.hero__subtitle {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--ifm-color-primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.button {
+  border-radius: 0;
+}
+
+.button--primary {
+  color: rgb(14, 14, 14);
+}
+
+.button--lg {
+  padding: 0.6em 2.2em;
+  font-size: 1.8rem;
+}
+
+.navbar__title {
+  font-family: "Mulish";
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: var(--ifm-color-primary);
+}
+
+.menu__link {
+  font-family: "Mulish";
+  font-weight: 900;
+}
+
+.navbar__link,
+.navbar__link > * {
+  font-family: "Mulish";
+  font-weight: 900;
+  color: var(--ifm-color-primary);
+  opacity: 0.8;
+}
+
+.navbar__link:hover,
+.navbar__link:focus {
+  opacity: 1;
+}
+
+.menu__button {
+  background-color: var(--ifm-color-primary);
+  border: none;
+  box-shadow: 0 0 12px 16px rgba(0, 0, 0, 0.25);
+}
+
+.menu__button > * {
+  color: #000;
+}
+
+img {
+  margin: 1rem 0;
+}
+
+.markdown li::marker {
+  content: "👉  ";
+}
+
+@media (max-width: 425px) {
+  .button--hero {
+    width: 100%;
+    font-size: 1.5rem;
+  }
 }
