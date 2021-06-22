@@ -38,10 +38,11 @@ const validProductUrl = "https://my_store.myconfig.store/api/v1/my_product";
 
 ### 403 - Forbidden
 
-You should expect this error in two cases:
+You should expect this error in three cases:
 
 - If your current subscription plan or trial has expired.
 - If you have not provided the correct store key or keys hash.
+- If you make a HTTP request other than GET.
 
 ### 404 - Not Found
 
