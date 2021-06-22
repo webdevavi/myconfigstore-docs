@@ -11,17 +11,32 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Avinash Sinha", // Usually your GitHub org/user name.
-  projectName: "myconfigstore", // Usually your repo name.
+  organizationName: "Avinash Sinha",
+  projectName: "myconfigstore",
   themeConfig: {
+    algolia: {
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: "myconfigstore",
+      contextualSearch: true,
+      appId: "QMWBGZ5JQ3",
+    },
+    image: "img/myconfigstore-logo-196x196.png",
     navbar: {
       title: "MyConfigStore Docs",
+      logo: {
+        alt: "MYConfigStore Logo",
+        src: "img/myconfigstore-logo-196x196.png",
+      },
       items: [
         {
           type: "doc",
           docId: "intro",
           position: "left",
           label: "Tutorial",
+        },
+        {
+          type: "search",
+          position: "right",
         },
         {
           href: "https://github.com/webdevavi/myconfigstore",
