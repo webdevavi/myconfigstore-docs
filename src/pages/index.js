@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout
       title="Docs"
-      description="Description will go into a meta tag in <head />"
+      description="A simple, fast, secure and highly available remote store for all your dynamic configs."
     >
       <div className={styles.heroBanner}>
         <h1 className="hero__title">
