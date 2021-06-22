@@ -93,6 +93,7 @@ html[data-theme="dark"] .navbar,
 }
 
 .hero__title-dark {
+  font-family: "Mulish";
   color: var(--ifm-color-primary-dark);
 }
 
@@ -123,6 +124,11 @@ html[data-theme="dark"] .navbar,
   font-family: "Mulish";
   font-weight: 900;
   font-size: 1.2rem;
+  color: var(--ifm-color-primary);
+}
+
+.navbar__toggle,
+.clean-btn {
   color: var(--ifm-color-primary);
 }
 
