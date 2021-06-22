@@ -34,16 +34,37 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Navigation",
+          items: [
+            { label: "Home", to: "https://www.myconfig.store" },
+            { label: "Pricing", to: "https://www.myconfig.store/pricing" },
+            { label: "Docs", to: "/docs/intro" },
+          ],
+        },
+        {
+          title: "Terms & Policies",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Terms & Conditions",
+              to: "https://www.myconfig.store/terms",
+            },
+            {
+              label: "Privacy Policy",
+              to: "https://www.myconfig.store/privacy",
+            },
+            {
+              label: "Cookies Policy",
+              to: "https://www.myconfig.store/cookies",
+            },
+            { label: "Refund Policy", to: "https://www.myconfig.store/refund" },
+            {
+              label: "Cancellation Policy",
+              to: "https://www.myconfig.store/refund#Cancellation%20Policy",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Contact Us",
           items: [
             {
               label: "Twitter",
@@ -56,11 +77,19 @@ module.exports = {
           ],
         },
         {
-          title: "More",
+          title: "Contact Us",
           items: [
             {
-              label: "GitHub",
-              href: "https://github.com/webdevavi/myconfigstore",
+              label: "Twitter",
+              href: "https://twitter.com/webdevavi",
+            },
+            {
+              label: "Facebook",
+              href: "https://facebook.com/webdevavi",
+            },
+            {
+              label: "Polywork",
+              href: "https://poly.work/avinash",
             },
           ],
         },
