@@ -14,7 +14,7 @@ Let's learn how to use **Authorization** header to securely access our products.
 
 > **Note:** When you create new product, it is secured by a store key by default, so that only those who have this store key can access the product through the API url.
 >
-> If you want to make your product accessible by anyone, you can go the product's settings and edit it to disable the `Private` flag.
+> If you want to make your product accessible by anyone, you can go to the product's settings and edit it to disable the `Private` flag.
 
 ### Store Key
 
