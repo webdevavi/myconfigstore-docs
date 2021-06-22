@@ -25,18 +25,8 @@ button,
 }
 
 body,
-p,
-span,
-div {
+p {
   font-family: "Poppins";
-}
-
-code,
-code > * {
-  font-family: var(--ifm-font-family-monospace) !important;
-  font-size: var(--ifm-code-font-size) !important;
-  line-height: 1.4rem;
-  letter-spacing: 0.025rem;
 }
 
 .docusaurus-highlight-code-line {
