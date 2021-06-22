@@ -8,10 +8,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <Layout
-      title="Docs"
-      description="A simple, fast, secure and highly available remote store for all your dynamic configs."
-    >
+    <Layout title="Docs" description={siteConfig.tagline}>
       <div className={styles.heroBanner}>
         <h1 className="hero__title">
           <span className="hero__title-dark">my</span>config
