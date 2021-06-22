@@ -3,7 +3,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "myconfig",
+  title: "MyConfigStore",
   tagline:
     "A simple, fast, secure and highly available remote store for all your dynamic configs.",
   url: "https://docs.myconfig.store",
@@ -15,7 +15,7 @@ module.exports = {
   projectName: "myconfigstore", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "myconfig.store Docs",
+      title: "MyConfigStore Docs",
       items: [
         {
           type: "doc",
@@ -46,16 +46,12 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/myconfigstore",
+            },
+            {
+              label: "Facebook",
+              href: "https://facebook.com/myconfigstore",
             },
           ],
         },
@@ -64,7 +60,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/webdevavi/myconfigstore",
             },
           ],
         },
