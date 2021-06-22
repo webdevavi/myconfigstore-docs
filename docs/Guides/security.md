@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Security
 
 Now that we have our first store and product up and running, we should make it secure if we don't want to make our product accessible by public.
