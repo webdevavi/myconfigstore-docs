@@ -14,12 +14,6 @@ module.exports = {
   organizationName: "Avinash Sinha",
   projectName: "myconfigstore",
   themeConfig: {
-    algolia: {
-      apiKey: process.env.ALGOLIA_API_KEY,
-      indexName: "myconfigstore",
-      contextualSearch: true,
-      appId: "QMWBGZ5JQ3",
-    },
     image: "img/myconfigstore-logo-196x196.png",
     navbar: {
       title: "MyConfig Docs",
@@ -33,10 +27,6 @@ module.exports = {
           docId: "intro",
           position: "left",
           label: "Tutorial",
-        },
-        {
-          type: "search",
-          position: "right",
         },
         {
           href: "https://github.com/webdevavi/myconfigstore",
