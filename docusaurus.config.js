@@ -3,7 +3,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "MyConfigStore",
+  title: "MyConfig",
   tagline:
     "A simple, fast, secure and highly available remote store for all your dynamic configs.",
   url: "https://docs.myconfig.store",
@@ -22,9 +22,9 @@ module.exports = {
     },
     image: "img/myconfigstore-logo-196x196.png",
     navbar: {
-      title: "MyConfigStore Docs",
+      title: "MyConfig Docs",
       logo: {
-        alt: "MYConfigStore Logo",
+        alt: "Logo",
         src: "img/myconfigstore-logo-196x196.png",
       },
       items: [
@@ -109,7 +109,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} myconfig.store`,
+      copyright: `Copyright © ${new Date().getFullYear()} myconfig`,
     },
     prism: {
       theme: lightCodeTheme,
